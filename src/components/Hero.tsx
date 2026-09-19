@@ -11,6 +11,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import { STATS_DATA } from '../data';
+import heroSolarRooftopImg from '../assets/images/hero_solar_rooftops.jpg';
 
 interface HeroProps {
   onOpenWaitlist: (prefillEmail?: string) => void;
@@ -193,8 +194,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenWaitlist, onOpenVideo }) => {
             <div className="relative w-full max-w-lg lg:max-w-none rounded-3xl p-2 bg-gradient-to-b from-white/80 to-white/40 shadow-[0_20px_50px_rgba(20,23,31,0.08)] backdrop-blur-sm border border-white/60">
               <div className="relative rounded-[20px] overflow-hidden aspect-[4/3] sm:aspect-[16/11] group">
                 <img
-                  src="/src/assets/images/hero_solar_rooftops_1789304309213.jpg"
+                  src={heroSolarRooftopImg}
                   alt="Modern rooftop solar panels in Indian city"
+                  loading="eager"
+                  decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                   referrerPolicy="no-referrer"
                 />
