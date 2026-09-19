@@ -1,0 +1,6 @@
+{
+  "name": "Marichi Energy",
+  "description": "India's regulated peer-to-peer rooftop solar energy trading marketplace connecting solar prosumers with nearby clean power consumers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
