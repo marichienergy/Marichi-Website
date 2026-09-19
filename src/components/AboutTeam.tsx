@@ -4,10 +4,10 @@ import { Layers, ShieldCheck, Cpu, Zap, Compass, Eye, Sparkles, CheckCircle2 } f
 export const AboutTeam: React.FC = () => {
   return (
     <section id="about" className="py-10 sm:py-14 bg-[#FAF9F6] relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
+        <div className="text-center max-w-3xl xl:max-w-4xl mx-auto mb-10 sm:mb-12">
           <span className="text-xs font-bold uppercase tracking-widest text-[#F5A623] block mb-2">
             ABOUT MARICHI ENERGY
           </span>

@@ -45,7 +45,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onOpenWaitlist }) => {
       {/* Decorative subtle sun-glow accent behind section header */}
       <div className="absolute top-10 left-1/2 -translate-x-1/2 w-96 h-96 bg-[#F5A623]/8 rounded-full blur-3xl pointer-events-none -z-10" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-10">

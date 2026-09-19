@@ -67,9 +67,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenWaitlist, onOpenVideo }) => {
       <div className="absolute top-12 left-1/2 -translate-x-1/2 w-[850px] h-[550px] bg-gradient-to-tr from-[#F5A623]/10 via-[#FFC94A]/8 to-transparent rounded-full blur-3xl pointer-events-none -z-10" />
       <div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-[#F5A623]/6 rounded-full blur-3xl pointer-events-none -z-10" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12">
         {/* Main 2-Column Hero Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 xl:gap-12 2xl:gap-16 items-center">
           
           {/* Left Column: Copy & Conversions */}
           <div className="lg:col-span-7 flex flex-col items-start text-left">
@@ -88,7 +88,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenWaitlist, onOpenVideo }) => {
             {/* Main Two-Tone Headline */}
             <h1
               id="hero-main-heading"
-              className="text-4xl sm:text-5xl lg:text-[62px] font-bold text-[#1A1A1A] tracking-tight leading-[1.12] mb-6"
+              className="text-4xl sm:text-5xl lg:text-[58px] xl:text-[64px] 2xl:text-[70px] font-bold text-[#1A1A1A] tracking-tight leading-[1.12] mb-6"
             >
               Trade Solar Power,{' '}
               <span className="relative inline-block text-[#F5A623]">
@@ -113,7 +113,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenWaitlist, onOpenVideo }) => {
             {/* Supporting Paragraph */}
             <p
               id="hero-subtitle-copy"
-              className="text-lg sm:text-xl text-[#5A5F6B] leading-relaxed max-w-2xl mb-8"
+              className="text-lg sm:text-xl xl:text-[21px] text-[#5A5F6B] leading-relaxed max-w-2xl xl:max-w-3xl mb-8"
             >
               Connect rooftop solar prosumers with nearby clean power consumers. 
               Sell your surplus at higher tariffs, buy local green electricity for less, 
@@ -121,7 +121,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenWaitlist, onOpenVideo }) => {
             </p>
 
             {/* Email Capture Input Form */}
-            <div className="w-full max-w-xl mb-6">
+            <div className="w-full max-w-xl xl:max-w-2xl mb-6">
               <form
                 id="hero-waitlist-form"
                 onSubmit={handleHeroSubmit}
@@ -289,14 +289,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenWaitlist, onOpenVideo }) => {
         {/* Horizontal Strip of 4 Stat Cards */}
         <div
           id="hero-stats-strip"
-          className="mt-10 sm:mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6"
+          className="mt-10 sm:mt-12 xl:mt-14 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 xl:gap-8"
         >
           {STATS_DATA.map((stat) => (
             <div
               key={stat.id}
-              className="p-5 sm:p-6 rounded-2xl bg-white border border-[#14171F]/5 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgba(245,166,35,0.12)] hover:-translate-y-1 transition-all duration-300 group"
+              className="p-5 sm:p-6 xl:p-7 rounded-2xl bg-white border border-[#14171F]/5 shadow-[0_4px_20px_rgba(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgba(245,166,35,0.12)] hover:-translate-y-1 transition-all duration-300 group"
             >
-              <div className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#1A1A1A] tracking-tight group-hover:text-[#F5A623] transition-colors">
+              <div className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-[#1A1A1A] tracking-tight group-hover:text-[#F5A623] transition-colors">
                 {stat.numberValue !== undefined ? (
                   <>
                     {statsValues[stat.id] || 0}

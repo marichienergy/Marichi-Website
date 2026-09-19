@@ -38,7 +38,7 @@ export const Partners: React.FC = () => {
 
   return (
     <section id="partners" className="py-10 sm:py-12 bg-white border-y border-[#14171F]/5 relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12">
         
         {/* Section Header Label */}
         <div className="text-center mb-8">
@@ -50,7 +50,7 @@ export const Partners: React.FC = () => {
         </div>
 
         {/* 4 Partner Logos Grid - Increased Size and Unified Baseline Alignment */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 items-stretch justify-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 xl:gap-8 items-stretch justify-center">
           {partners.map((partner) => (
             <div
               key={partner.name}

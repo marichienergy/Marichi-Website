@@ -24,7 +24,7 @@ export const LeadCapture: React.FC<LeadCaptureProps> = ({ onOpenWaitlist }) => {
 
   return (
     <section id="early-access" className="py-12 sm:py-16 bg-[#FAF9F6] relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12">
         
         {/* Dynamic Multi-Tone Architectural Panel */}
         <div className="relative rounded-3xl bg-gradient-to-br from-[#11161D] via-[#151B26] to-[#0F141A] p-6 sm:p-10 lg:p-12 text-white shadow-2xl border border-white/10 overflow-hidden">

@@ -9,7 +9,7 @@ export const CeoMessage: React.FC = () => {
       <div className="absolute -top-24 right-1/4 w-80 h-80 bg-[#F5A623]/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -bottom-24 left-1/4 w-80 h-80 bg-[#F5A623]/10 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div className="w-full max-w-5xl xl:max-w-6xl 2xl:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12 relative">
         
         {/* Section Eyebrow */}
         <div className="text-center mb-6 sm:mb-8">

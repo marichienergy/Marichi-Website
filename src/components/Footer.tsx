@@ -13,7 +13,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenWaitlist }) => {
 
   return (
     <footer id="main-footer" className="bg-[#14171F] text-white pt-16 pb-12 border-t border-white/10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-7xl xl:max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12">
         
         {/* Main Footer Row */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-12 pb-12 border-b border-white/10">
